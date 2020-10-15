@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <setup.h>
 
+char board[3][3];
+char user, computer;
+
 void draw_board();
 void player_move();
 void computer_move();
